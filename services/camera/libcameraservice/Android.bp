@@ -25,7 +25,7 @@ cc_library_shared {
     product_variables: {
         xtended: {
             target_camera_needs_client_info: {
-                cppflags: ["-DTARGET_NEEDS_CLIENT_INFO"],
+              cflags: ["-DTARGET_NEEDS_CLIENT_INFO"],
             },
             uses_qti_camera_device: {
                 cppflags: ["-DQTI_CAMERA_DEVICE"],
